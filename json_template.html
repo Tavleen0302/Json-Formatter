@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JSON Format</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .json-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            color: #333;
+        }
+
+        .json-code {
+            white-space: pre-wrap;
+        }
+    </style>
+</head>
+<body>
+    <h1>JSON Format</h1>
+    <div class="json-container">
+        <pre class="json-code">{{jsonformat|tojson(indent=4)}}</pre>
+    </div>
+</body>
+</html>
